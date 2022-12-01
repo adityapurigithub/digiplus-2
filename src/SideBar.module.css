@@ -1,0 +1,50 @@
+.sideBar {
+  min-height: 100vh;
+  max-width: 20%;
+  min-width: 200px;
+  background-color: #c3bbbb;
+  padding: 1rem;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+  transform: translateX(-400px);
+}
+.show {
+  transform: translateX(0);
+  min-height: 100vh;
+  max-width: 20%;
+  min-width: 200px;
+  background-color: #c3bbbb;
+  padding: 1rem;
+  position: fixed;
+  transition: 0.3s ease-in-out;
+  z-index: 1;
+}
+.brand {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.brand .logo {
+  width: 40px;
+  object-fit: contain;
+  padding: 10px;
+}
+.brand .title {
+  letter-spacing: 1px;
+}
+.links {
+  margin: 2rem;
+}
+.links ul li {
+  width: max-content;
+  font-size: 1.4rem;
+  list-style: none;
+  font-weight: 600;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 0.4s ease-in;
+}
+.links ul li:hover {
+  color: #e22b2b;
+  border-bottom: 1px solid rgb(93, 0, 0);
+}
