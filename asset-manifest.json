@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/digiplus-2/static/css/main.129180b3.css",
+    "main.js": "/digiplus-2/static/js/main.f45b1bb5.js",
+    "index.html": "/digiplus-2/index.html",
+    "main.129180b3.css.map": "/digiplus-2/static/css/main.129180b3.css.map",
+    "main.f45b1bb5.js.map": "/digiplus-2/static/js/main.f45b1bb5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.129180b3.css",
+    "static/js/main.f45b1bb5.js"
+  ]
+}
